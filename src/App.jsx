@@ -1,10 +1,12 @@
 // components
 import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
 
 function App() {
   return (
-    <div className="bg-indigo-950 text-yellow-500">
+    <div className="text-white">
       <Header />
+      <Hero />
     </div>
   );
 }

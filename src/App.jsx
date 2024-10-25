@@ -6,6 +6,7 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { BulletPoints } from "./components/BulletPoints";
 import { CallToActionTwo } from "./components/CallToActionTwo";
+import { Pricing } from "./components/Pricing";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <CallToActionOne />
       <BulletPoints />
+      <Pricing />
       <CallToActionTwo />
     </div>
   );

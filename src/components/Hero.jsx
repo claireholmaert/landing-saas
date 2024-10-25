@@ -23,7 +23,7 @@ export const Hero = () => {
             temporibus assumenda culpa esse ea iure labore reiciendis mollitia
             eaque ex unde aperiam!
           </p>
-          <Button theme="primary" href="/pricing">
+          <Button theme="primary" href="/#pricing">
             Pricing & Plans
           </Button>
         </div>

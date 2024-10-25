@@ -20,7 +20,7 @@ export const Header = () => {
             <h1 className="text-xl text-yellow-500 lg:text-4xl font-bold">EDGE</h1>
           </div>
           <Elipse />
-          <Button theme="secondary" href="/#">
+          <Button theme="primary" href="/#">
             Login
           </Button>
         </div>

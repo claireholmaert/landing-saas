@@ -4,7 +4,7 @@ export const Button = ({ children, theme, className, href }) => {
     theme === "primary"
       ? "bg-yellow-500 transition-colors hover:bg-yellow-600"
       : theme === "secondary"
-      ? "bg-violet-600 transition-colors hover:bg-violet-500"
+      ? "bg-yellow-600 transition-colors hover:bg-yellow-500"
       : "";
 
   const renderButton = () => {

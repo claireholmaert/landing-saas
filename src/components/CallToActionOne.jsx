@@ -8,7 +8,7 @@ export const CallToActionOne = () => {
   return (
     <Container>
       <div className="py-5 lg:py-10">
-        <div className="flex flex-col items-center space-y-6 rounded-xl bg-gradient-to-tl from-yellow-600 to-yellow-700 p-6">
+        <div className="flex flex-col items-center space-y-6 rounded-xl bg-gradient-to-tl from-violet-600 to-violet-500 p-6">
           <div className="space-y-4 text-center">
             <h2 className="text-lg">Ready To Start ?</h2>
             <h3 className="text-3xl font-medium">

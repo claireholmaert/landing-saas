@@ -7,6 +7,7 @@ import { Hero } from "./components/Hero";
 import { BulletPoints } from "./components/BulletPoints";
 import { CallToActionTwo } from "./components/CallToActionTwo";
 import { Pricing } from "./components/Pricing";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <BulletPoints />
       <Pricing />
       <CallToActionTwo />
+      <Footer />
     </div>
   );
 }

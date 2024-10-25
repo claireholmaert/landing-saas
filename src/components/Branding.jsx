@@ -37,7 +37,7 @@ const branding = [
 export const Branding = () => {
   return (
     <Container>
-      <div className="max-w-5xl w-full mx-auto grid grid-cols-3 gap-5 place-items-center py-5 lg:grid-cols-5 lg:py-10 lg:gap-1">
+      <div className="max-w-5xl w-full mx-auto grid grid-cols-3 gap-5 place-items-center py-5 lg:grid-cols-5 lg:gap-1">
         {branding.map((brand) => (
           <img
             key={brand.id}

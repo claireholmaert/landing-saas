@@ -1,10 +1,11 @@
 // components
 import { Branding } from "./components/Branding";
-import { CallToAction } from "./components/CallToAction";
+import { CallToActionOne } from "./components/CallToActionOne";
 import { Features } from "./components/Features";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { BulletPoints } from "./components/BulletPoints";
+import { CallToActionTwo } from "./components/CallToActionTwo";
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Hero />
       <Branding />
       <Features />
-      <CallToAction />
+      <CallToActionOne />
       <BulletPoints />
+      <CallToActionTwo />
     </div>
   );
 }

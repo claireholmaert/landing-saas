@@ -7,7 +7,7 @@ import { Grid } from "./ui/Hero";
 
 export const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative pb-8 lg:pb-40">
       <Container className="relative z-10 pt-10 space-y-16 lg:py-16">
         <div className="max-w-2xl mx-auto px-16 text-center space-y-7 lg:px-0">
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-semibold">

@@ -4,6 +4,7 @@ import { CallToAction } from "./components/CallToAction";
 import { Features } from "./components/Features";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { BulletPoints } from "./components/BulletPoints";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Branding />
       <Features />
       <CallToAction />
+      <BulletPoints />
     </div>
   );
 }
